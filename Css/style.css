@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+a:hover {
+  color: #fa2f73;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+header .nav a {
+  display: flex;
+  align-items: center;
+}
+
+header .nav a p {
+  padding-right: 5px;
+}
+
+#grad1 {
+  background-color: #f6daf7; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #dfeffe, #f6daf7);
+  background-image: linear-gradient(to right, rgba(223,239,254,1), rgba(246,218,247,1));
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero>h1{
+    font-size: 50px;
+    width: 45%;
+}
+
+.prices{
+  padding: 100px 0px;
+  color: white;
+}
+
+table{
+  margin-top: 25px;
+  width: 100%;
+  min-height: 150px;
+  text-align: left;
+}
+
+table th{
+  border: 2px solid #999;
+}
+
+table , th ,td{
+  border: 1px solid #333;
+  padding: 15px;
+  border-collapse: collapse;
+}
+
+
+
+tr img{
+  width : 30px;
+  height: 30px;
+}
